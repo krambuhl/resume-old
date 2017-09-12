@@ -20,7 +20,7 @@ Integrations: [Adobe Experience Manager](https://docs.adobe.com/docs/en/aem/6-2.
 Applications: [Zeplin](https://zeplin.io/)
  
 
-#### [Connective DX](http://connectivedx.com)
+### [Connective DX](http://connectivedx.com)
 
 **Senior Software Engineer**
 
@@ -33,7 +33,7 @@ Clients Include: [Keysight](https://www.keysight.com/us/en/software/application-
 Technologies: [Metalsmith](http://www.metalsmith.io/)
 
 
-#### [CLEAResult](https://www.clearesult.com/)
+### [CLEAResult](https://www.clearesult.com/)
 
 **Senior Front-end Developer** » Contract
 
@@ -49,7 +49,7 @@ Integrations: [Trimet Web Services](https://developer.trimet.org/ws_docs/)
 Applications: [Atom](https://atom.io/)
 
 
-#### [Trimet](https://trimet.org/)
+### [Trimet](https://trimet.org/)
 
 **Product Designer and Application Developer** » Contract
 
@@ -66,7 +66,7 @@ Integrations: [Parse.js](http://parseplatform.org/), [Clojure](https://clojure.o
 Applications: [Sublime Text 3](https://www.sublimetext.com/3)
 
 
-#### [John McNeil Studio](http://www.johnmcneilstudio.com/)
+### [John McNeil Studio](http://www.johnmcneilstudio.com/)
 
 **Web Technologist**
 
@@ -75,21 +75,21 @@ Applications: [Sublime Text 3](https://www.sublimetext.com/3)
 Clients Include: [CA Technologies](https://www.ca.com/), [Juniper Networks](http://www.juniper.net/), [Polycom](http://www.polycom.com/)
 
 
-#### UV Labs
+### UV Labs
 
 **UI Designer** » Contract
 
 *November 2013 — January 2014*
 
 
-#### [Little Bird](https://www.getlittlebird.com/)
+### [Little Bird](https://www.getlittlebird.com/)
 
 **Web Developer** » Contract
 
 *June 2013 — September 2013*
   
 
-#### [The Brigade](https://thisisthebrigade.com/)
+### [The Brigade](https://thisisthebrigade.com/)
 
 **Front End Developer** » Contract
 
@@ -105,7 +105,7 @@ Integrations: [Ruby](https://www.ruby-lang.org), [Ruby on Rails](http://rubyonra
 Applications: [Coda](https://panic.com/coda/), [Transmit](https://panic.com/transmit/), [Adobe InDesign](http://www.adobe.com/products/indesign.html)
 
 
-#### [Webtrends](https://www.webtrends.com/)
+### [Webtrends](https://www.webtrends.com/)
 
 **Interactive Designer**
 
@@ -114,14 +114,14 @@ Applications: [Coda](https://panic.com/coda/), [Transmit](https://panic.com/tran
 Clients Include: [Addidas](https://www.adidas-group.com/en/), [Microsoft](https://www.microsoft.com/), [State Farm](https://www.statefarm.com/), [Red Bull](https://www.redbull.com/us-en/)
 
 
-#### Carbon
+### Carbon
 
 **UX Designer** » Contract
 
 *October 2012 - January 2013*
 
 
-#### [Citizen](https://pluscitizen.com/)
+### [Citizen](https://pluscitizen.com/)
 
 **UX Designer** » Contract
 
@@ -135,14 +135,14 @@ Technologies: HTML, CSS, Javascript, Flash, Actionscript 2, [PHP](http://php.net
 Applications: [Adobe Illustrator](http://www.adobe.com/products/illustrator.html), [Adobe Photoshop](http://www.adobe.com/products/photoshop.html)
 
 
-#### [Natalie Reneé Music](http://nataliereneemusic.com/)
+### [Natalie Reneé Music](http://nataliereneemusic.com/)
 
 **Web Developer** » Contract
 
 *September 2010 — February 2011*
 
 
-#### [Southridge High School](https://www.beaverton.k12.or.us/schools/southridge)
+### [Southridge High School](https://www.beaverton.k12.or.us/schools/southridge)
 
 **Web Designer & Developer** » Contract
 
