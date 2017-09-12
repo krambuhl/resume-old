@@ -39,8 +39,6 @@ postcss(plugins)
 		const fn = hbs.compile(template);
   	const output = fn({ css: res.css });
 
-  	console.log(output, minify(output));
-
     fs.writeFileSync(dest('index.html'), `<!DOCTYPE html>${minify(output)}`);
   })
   .catch((err) => {
