@@ -128,7 +128,7 @@ module.exports = {
 			title: "Web Developer",
 			contract: true
 		}, {
-			slug: "citizen",
+			slug: "the-brigade",
 			start: "February 2013",
 			end: "February 2013",
 			company: "The Brigade",
