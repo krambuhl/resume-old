@@ -3,14 +3,12 @@ const path = require('path');
 
 const handlebars = require('handlebars');
 const wax = require('handlebars-wax');
+const minify = require('html-minifier').minify;
 
 const postcss = require('postcss');
 const cssnext = require('postcss-cssnext');
 const nested = require('postcss-nested');
 const easyImport = require('postcss-easy-import');
-
-const browserify = require('browserify');
-const through = require('through2');
 
 
 const source = (...args) => path.resolve(__dirname, '..', 'source', ...args);
@@ -40,7 +38,10 @@ postcss(plugins)
   .then((res) => {
 		const fn = hbs.compile(template);
   	const output = fn({ css: res.css });
-    fs.writeFileSync(dest('index.html'), output);
+
+  	console.log(output, minify(output));
+
+    fs.writeFileSync(dest('index.html'), `<!DOCTYPE html>${minify(output)}`);
   })
   .catch((err) => {
     throw new Error(err);

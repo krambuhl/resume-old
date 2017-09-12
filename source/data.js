@@ -1,8 +1,8 @@
 module.exports = {
 	strings: {
-		historyHeader: 'Work Experience',
-		clientsPrefix: 'Clients include',
-		contract: 'Contract'
+		historyHeader: "Work Experience",
+		clientsPrefix: "Clients include",
+		contract: "Contract"
 	},
 	name: "Evan Krambuhl",
 	lead: "Software engineer focused on Javascript and User Experience.  Interested in open source code, application architecture, build tooling, and design systems.",
@@ -13,6 +13,7 @@ module.exports = {
 		{ contents: "NPM", href: "https://www.npmjs.com/~krambuhl" },
 	],
 	experience: [{
+		slug: "year-2016",
 		year: "2016 &mdash; Present",
 		technologies: [
 			{ contents: "React", href: "https://facebook.github.io/react/" },
@@ -31,8 +32,9 @@ module.exports = {
 			{ contents: "Invision", href: "https://www.invisionapp.com/" },
 		],
 		assignments: [{
+			slug: "connective-dx",
 			start: "March 2016",
-			end: "Present",
+			end: "September 2017",
 			company: "Connective DX",
 			title: "Senior Software Engineer",
 			website: "https://www.connectivedx.com/",
@@ -43,11 +45,13 @@ module.exports = {
 			]
 		}]
 	}, {
+		slug: "year-2015",
 		year: "2015",
 		technologies: [
 			{ contents: "Metalsmith", href: "http://www.metalsmith.io/" },
 		],
 		assignments: [{
+			slug: "clearesult",
 			start: "June 2015",
 			end: "Feb 2016",
 			company: "CLEAResult",
@@ -56,6 +60,7 @@ module.exports = {
 			contract: true
 		}]
 	}, {
+		slug: "year-2014",
 		year: "2014",
 		technologies: [
 			{ contents: "Javascript ES6" },
@@ -68,6 +73,7 @@ module.exports = {
 			{ contents: "Atom", href: "https://atom.io/" },
 		],
 		assignments: [{
+			slug: "trimet",
 			start: "October 2014",
 			end: "April 2015",
 			company: "Trimet",
@@ -76,6 +82,7 @@ module.exports = {
 			contract: true
 		}]
 	}, {
+		slug: "year-2013",
 		year: "2013",
 		technologies: [
 			{ contents: "Gulp", href: "https://gulpjs.com/" },
@@ -94,6 +101,7 @@ module.exports = {
 			{ contents: "Sublime Text 3", href: "https://www.sublimetext.com/3" },
 		],
 		assignments: [{
+			slug: "john-mcneil-studio",
 			start: "September 2013",
 			end: "September 2014",
 			company: "John McNeil Studio",
@@ -105,12 +113,14 @@ module.exports = {
 				{ contents: "Polycom", href: "http://www.polycom.com/" },
 			]
 		}, {
+			slug: "uvlabs",
 			start: "November 2013",
 			end: "January 2014",
 			company: "UV Labs",
 			title: "UI Designer",
 			contract: true
 		}, {
+			slug: "little-bird",
 			start: "June 2013",
 			end: "September 2013",
 			company: "Little Bird",
@@ -118,6 +128,7 @@ module.exports = {
 			title: "Web Developer",
 			contract: true
 		}, {
+			slug: "citizen",
 			start: "February 2013",
 			end: "February 2013",
 			company: "The Brigade",
@@ -126,6 +137,7 @@ module.exports = {
 			contract: true
 		}]
 	}, {
+		slug: "year-2012",
 		year: "2012",
 		technologies: [
 			{ contents: "jQuery", href: "https://jquery.com/" },
@@ -143,6 +155,7 @@ module.exports = {
 			{ contents: "Adobe InDesign", href: "http://www.adobe.com/products/indesign.html" },
 		],
 		assignments: [{
+			slug: "webtrends",
 			start: "May 2012",
 			end: "May 2013",
 			company: "Webtrends",
@@ -155,12 +168,14 @@ module.exports = {
 				{ contents: "Red Bull", href: "https://www.redbull.com/us-en/" },
 			]
 		}, {
+			slug: "carbon",
 			start: "October 2012",
 			end: "January 2013",
 			company: "Carbon",
 			title: "UX Designer",
 			contract: true
 		}, {
+			slug: "citizen",
 			start: "October 2012",
 			end: "December 2012",
 			company: "Citizen",
@@ -169,6 +184,7 @@ module.exports = {
 			contract: true
 		}]
 	}, {
+		slug: "year-2008",
 		year: "2008 &mdash; 2011",
 		technologies: [
 			{ contents: "HTML" },
@@ -183,6 +199,7 @@ module.exports = {
 			{ contents: "Adobe Photoshop", href: "http://www.adobe.com/products/photoshop.html" },
 		],
 		assignments: [{
+			slug: "natalie-renee-music",
 			start: "September 2010",
 			end: "February 2011",
 			company: "Natalie Reneé Music",
@@ -190,6 +207,7 @@ module.exports = {
 			title: "Web Developer",
 			contract: true
 		}, {
+			slug: "southridge-high-school",
 			start: "July 2008",
 			end: "September 2008",
 			company: "Southridge High School",
