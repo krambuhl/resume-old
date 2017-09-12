@@ -1,0 +1,4 @@
+.wrapper {
+	margin: auto;
+	&--default { max-width: 36em; }
+}

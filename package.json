@@ -1,0 +1,29 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Evan Krambuhl <thekrambuhl@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "serve dist",
+    "build": "node ./build/compile.js",
+    "dev": "chokidar 'source/**/*' -c 'npm run build'"
+  },
+  "dependencies": {
+    "browserify": "^14.4.0",
+    "chokidar-cli": "^1.2.0",
+    "cssnano": "^3.10.0",
+    "handlebars": "^4.0.10",
+    "handlebars-wax": "^6.1.0",
+    "postcss": "^6.0.11",
+    "postcss-cssnext": "^3.0.2",
+    "postcss-easy-import": "^2.1.0",
+    "postcss-import": "^10.0.0",
+    "postcss-nested": "^2.1.2",
+    "reset-css": "^2.2.1",
+    "serve": "^6.0.6",
+    "through2": "^2.0.3",
+    "uglify-js": "^3.1.0",
+    "uglifyify": "^4.0.3"
+  }
+}

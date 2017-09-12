@@ -1,0 +1,11 @@
+{{#>rhythm size="medium"}}
+	<h1>{{data.name}}</h1>
+
+	<p>{{data.lead}}</p>
+
+	<ul class="rhythm rhythm--medium-small">
+		{{#each data.contactInfo}}
+			<li><a class="page-header__link" href="{{href}}">{{contents}}</a></li>
+		{{/each}}
+	</ul>
+{{/rhythm}}

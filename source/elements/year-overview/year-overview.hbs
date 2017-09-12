@@ -1,0 +1,19 @@
+<div class="year-overview" id="{{id}}">
+	{{#>rhythm size="medium"}}
+		<h3>{{{year}}}</h3>
+
+		<ul class="rhythm rhythm--small">
+			{{#if technologies}}
+				<li>Technologies: {{>link-list items=technologies}}</li>
+			{{/if}}
+
+			{{#if integrations}}
+				<li>Integrations: {{>link-list items=integrations}}</li>
+			{{/if}}
+
+			{{#if applications}}
+				<li>Applications: {{>link-list items=applications}}</li>
+			{{/if}}
+		</ul>
+	{{/rhythm}}
+</div>

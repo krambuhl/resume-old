@@ -1,0 +1,8 @@
+.rhythm {
+	&--text > * + * { margin-top: 0.1em; }
+	&--small > * + * { margin-top: 0.25em; }
+	&--medium-small > * + * { margin-top: 0.5em; }
+	&--medium > * + * { margin-top: 1em; }
+	&--large > * + * { margin-top: 1.75em; }
+	&--huge > * + * { margin-top: 2.5em; }
+}

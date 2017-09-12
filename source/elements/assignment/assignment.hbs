@@ -1,0 +1,18 @@
+<div id="{{id}}" class="assignment {{#if contract}}assignment--contract{{/if}}">
+	{{#>rhythm size="small"}}
+		<small class="assignment__date">{{start}} &mdash; {{end}}</small>
+		{{#if website}}
+		<h4><a class="assignment__companyLink" href="{{website}}">{{company}}</a></h4>
+		{{else}}
+		<h4>{{company}}</h4>
+		{{/if}}
+		<h5>{{title}}</h5>
+		<ul class="assignment__details rhythm rhythm--medium-small">
+			{{#if clients}}<li>{{@root.data.strings.clientsPrefix}}: {{>link-list items=clients}}</li>{{/if}}
+			{{#if contract}}<li>{{@root.data.strings.contract}}</li>{{/if}}
+			{{#each details}}
+				<li>{{.}}</li>
+			{{/each}}
+		</ul>
+	{{/rhythm}}
+</div>

@@ -1,0 +1,27 @@
+{{#>root}}
+	{{#>wrapper}}
+		{{#>padding}}
+			{{#>rhythm size="huge"}}
+				{{>page-header}}
+
+				{{#>rhythm size="large"}}
+					<h2>{{@root.data.strings.historyHeader}}</h2>
+					
+					{{#>rhythm size="huge"}}
+						{{#each data.experience}}
+							{{#>rhythm size="large"}}
+								{{>year-overview}}
+
+								{{#>rhythm size="large"}}
+									{{#each assignments}}
+										{{>assignment}}
+									{{/each}}
+								{{/rhythm}}
+							{{/rhythm}}
+						{{/each}}
+					{{/rhythm}}
+				{{/rhythm}}
+			{{/rhythm}}
+		{{/padding}}
+	{{/wrapper}}
+{{/root}}

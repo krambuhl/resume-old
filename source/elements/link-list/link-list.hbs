@@ -1,0 +1,10 @@
+<span>
+	{{#each items~}}
+		{{~#if href~}}
+			<a href="{{href}}">{{{contents}}}</a>
+		{{~else~}}
+			<span>{{{contents}}}</span>
+		{{~/if~}}
+		{{~#unless @last}}, {{/unless~}}
+	{{~/each}}
+</span>

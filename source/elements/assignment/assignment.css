@@ -1,0 +1,39 @@
+.assignment {
+	position: relative;
+	font-size: 0.8em;
+	padding: 0.25em 0 0.25em 1.2em;
+
+	&::before {
+		content: '\0020';
+		position: absolute;
+		top: 0;
+		right: 100%;
+		bottom: 0;
+		width: 0.5vw;
+		min-width: 3px;
+		max-width: 6px;
+		border-radius: 100px;
+		background-color: var(--color-purple);
+	}
+
+	&__date {
+		display: block;
+		line-height: 1.4em;
+		opacity: 0.4;
+	}
+
+	&__companyLink {
+		color: var(--color-dark);
+
+	}
+
+	ul&__details {
+		margin-top: 0.5em;
+	}
+
+	&--contract {
+		&::before {
+			background-color: var(--color-blue);
+		}
+	}
+}
